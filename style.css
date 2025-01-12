@@ -190,24 +190,30 @@ aside > ul {
 
 footer{
     background-color: var(--cor5);
-    color: white;
+    color: rgba(255, 255, 255, 0.548);
     text-align: center;
     font-size: 0.8em;
     padding: 5px;
+    margin: 2px;
+    
 }
-footer  a { 
+
+footer  strong{
     color: white;
     font-weight: bolder;
-    text-decoration: none;
 }
 
-footer p {
-    color: rgba(255, 255, 255, 0.61);
-}
-
-footer a:hover{
+footer strong a:hover{
     text-decoration: underline;
-    color: var(--cor1);
+    background-color: var(--cor1);
+    border-radius: 6px;
+    color: rgb(0, 0, 0);
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
 }
 
 
